@@ -18,6 +18,10 @@ h1 {
 .center{
 	text-align: center;
 }
+.articles-meta-details {
+	border-top: 1px solid #eaeaea;
+	margin-top: 10px
+}
 .article-actions {
 	border-top: 1px solid #aeaeae;
 	padding-top: 5px
@@ -28,6 +32,20 @@ h1 {
 .article-title{
 	font-weight: bold;
 	font-size: 1.5em;
+}
+.listing {
+	list-style: none;
+	padding-left: 0;
+	
+}
+.badge {
+	background-color: #cef6f5;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.input_checkbox input{
+	width: auto !important;
 }
 .article-body{
 	border-top: 1px solid #eaeaea;
